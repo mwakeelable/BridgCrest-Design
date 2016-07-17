@@ -1,0 +1,287 @@
+<resources>
+    <string name="app_name">Bridgecrest Medical</string>
+    <string name="title_activity_login">Login</string>
+    <string name="action_settings">Settings</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="remember_chkbox_text">Remember Me</string>
+    <string name="login_btn_text">Next</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_status"></string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_devices">DevicesActivity</string>
+    <string name="title_activity_chart">ChartActivity</string>
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="reset"><u>Forgot your password?</u></string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="title_privacy_policy"><u>Privacy Policy</u></string>
+
+    <string-array name="drawer_list">
+        <item>pic</item>
+        <item>Home</item>
+        <item>My Shift</item>
+        <item>Messages</item>
+        <item>Settings</item>
+        <item>Help</item>
+    </string-array>
+
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_shift">ShiftActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_messaging">MessagingActivity</string>
+    <string name="title_activity_view_message">ViewMessageActivity</string>
+    <string name="title_activity_reply">ReplyActivity</string>
+    <string name="title_activity_compose">ComposeActivity</string>
+    <string name="reminder">Reminder.</string>
+    <string name="TakeControlOf">Take control of your own safety?. Make sure to wear your Basis Watch tonight.</string>
+    <string name="requestFailed">Request Failed</string>
+    <string name="youHaveBeenLoggedout">You have been logged out due to security reason, please login again.</string>
+    <string name="yourSessionExpired">Your session has expired.\nPlease logout.</string>
+    <string name="PasswordChangedSuccefully">Password Changed successfully</string>
+    <string name="MessegeSent">Message sent successfully</string>
+    <string name="replySent">Reply was sent successfully</string>
+    <string name="PasswordSentToEmail">New password was sent to your email.</string>
+    <string name="settingChangedSuccessfully">Setting changed successfully.</string>
+    <string name="pleaseProvideOldPassword">please, provide your old password</string>
+    <string name="passwordCannotBeEmpty">Password can not be left empty!</string>
+    <string name="passwordAndConfirmationDontMatch">Password and confirmation do not match!</string>
+    <string name="newMessageTo">"New Message to: "</string>
+    <string name="ErrorOccurred">An error occurred Please try again later</string>
+    <string name="MessageCannotbeempty">Message body cannot be empty.</string>
+    <string name="SubjectCanotbeEmpty">Subject cannot be empty.</string>
+    <string name="Areusuresendmessage">Are you sure you want to send this message.</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="pleaseadddevice">"Please head to the Setting section to add your device. "</string>
+    <string name="youarecurrently">"You are currently in the "</string>
+    <string name="precentilepart2">" percentile when it comes to sleep quality among your shift"</string>
+    <string name="LogoutFailed">Logout failed./r/nPlease try again later.</string>
+    <string name="areusurelogout">Are you sure you want to logout?</string>
+    <string name="invalidemailformat">Invalid email format!</string>
+    <string name="NoSubject">No Subject</string>
+    <string name="NoPreviewAvailble">No preview available</string>
+    <string name="Replyingto">"Replying to: "</string>
+    <string name="ReplyBodyCannotBeEmpty">Reply body cannot be empty.</string>
+    <string name="AreYouSureReply">Are you sure you want to send this reply</string>
+    <string name="AreYouSureRemoveDevice">Are you sure you want to Remove your device?</string>
+    <string name="BassisLogin">Basis Login</string>
+    <string name="From">From:</string>
+    <string name="Time">"Time: "</string>
+    <string name="ChangePassword">Change Password</string>
+    <string name="oldPassword">Old Password</string>
+    <string name="newPassword">New Password</string>
+    <string name="confirmNewPassword">Confirm New Password</string>
+    <string name="Subject">Subject</string>
+    <string name="SEND">SEND</string>
+    <string name="HELP">HELP</string>
+    <string name="privacything">By logging into the Bridgecrest Medical app, you provide consent to our privacy policy.</string>
+    <string name="Messages">MESSAGES</string>
+    <string name="Anouncments">ANNOUNCEMENTS</string>
+    <string name="replyingTo">replying to</string>
+    <string name="Reply">REPLY</string>
+    <string name="Settings">SETTINGS</string>
+    <string name="Notifications">NOTIFICATIONS</string>
+    <string name="TestNotifications">Test Push Notifications</string>
+    <string name="Weeklyemails">Weekly Emails</string>
+    <string name="account">ACCOUNT</string>
+    <string name="device">Device</string>
+    <string name="basis">Basis</string>
+    <string name="removeDevice">Remove Device</string>
+    <string name="changePassword">Change Password</string>
+    <string name="MyShift">MY SHIFT</string>
+    <string name="shiftinfo">SHIFT INFORMATION</string>
+    <string name="shiftname">SHIFT NAME</string>
+    <string name="shiftSynctime">DATA SYNC TIME</string>
+    <string name="workDays">WORK DAYS</string>
+    <string name="managementInfo">MANAGEMENT INFORMATION</string>
+    <string name="manager">MANAGER</string>
+    <string name="call">Call Manager</string>
+    <string name="message">Message Manager</string>
+    <string name="shiftStatus">SHIFT STATUS</string>
+    <string name="unknown">Unknown</string>
+    <string name="mistake">If you believe there was a mistake, please contact your manager directly. For help, please head to the help section.</string>
+    <string name="lastSync">Last Sync:</string>
+    <string name="datafrom">Data from:</string>
+    <string name="readMessages">Read Messages</string>
+    <string name="allinone">All in one place</string>
+    <string name="logout">Logout</string>
+    <string name="noDevice">No Device</string>
+    <string name="check_device">Check Device</string>
+    <string name="contact_manager">Contact Manager</string>
+    <string name="sync_data">SYNC DATA</string>
+    <string name="sleep_quality">SLEEP QUALITY</string>
+    <string name="avg_sleep">AVG. SLEEP/DAY</string>
+    <string name="avg_interruptions">AVG. INTERRUPTIONS</string>
+    <string name="social_data">SOCIAL DATA</string>
+    <string name="co_workers">CO-WORKERS</string>
+    <string name="hours_slept">HOURS SLEPT THIS WK</string>
+    <string name="perfect_greens">PERFECT GREENS</string>
+    <string name="announcements_msgs">MESSAGES</string>
+    <string name="announcements">ANNOUNCEMENTS</string>
+    <string name="new_msgs">NEW MESSAGES</string>
+
+    <string-array name="faq_list">
+        <item>Who is Bridgecrest? What is their function?</item>
+        <item>What does Basis do?</item>
+        <item>Where does my data go? Who can see it?</item>
+        <item>How does the platform work?</item>
+        <item>What happens if I do not wear my watch?</item>
+        <item>What happens if I’m red? Why?</item>
+    </string-array>
+    <string-array name="faq_answers_list">
+        <item>Bridgecrest medical is a team of safety specialists that uses the latest technology to help individuals and corporations manage individual risk and fatigue. The Bridgecrest med team uses data analytics and IoT to provide the most innovative fatigue management solutions. Bridgecrest is a one-stop solution that allows for seamless interaction between workers and corporations about their well-being.</item>
+        <item>The Basis Peak is the smartwatch responsible for driving the data collection for the Bridgecrest algorithms that eventually indicate the fatigue status of the employee. The watch uses the following sensors to collect data: [Optical Heart Rate - Galvanic Skin Response - Skin Temperature - 3-axis Accelerometer] When it comes to battery life, the Basis Peak has about, an average of 4 days, and is water resistant up to 5ATM (enough to withstand swimming).</item>
+        <item>We take a lot of care with your data. Your data is transferred to a secure server in California, USA operated by Bridgecrest Medical on the Amazon Cloud Platform. The servers have state of the art surveillance and access control to ensure that no one sees your data who is not authorized to see it. We use advanced firewalls and encryption to protect you!<br />
+ Your employer tells us who should be able to see the data. Most likely, this is the doctor on your job site. This data allows them to make just-in-time management decisions to ensure your safety!</item>
+        <item>Employee watch data synchronizes with the employee’s phone every two hours. We synchronize (pull) this data into our servers one hour before the shift starts and use our scalable computing power to instantly run the risk analysis.<br />
+Our synchronization process works at two levels. Bluetooth from the watch to the phone and wirelessly from the phone to the servers.</item>
+        <item>If you don’t wear your watch it will cause your status to become red “Do Not Drive” So it’s important to wear your watch especially when sleeping.</item>
+        <item>If the Bridgecrest application displays your status to be Red, it is indicating that you are not fit enough to drive and are too fatigued.<br />
+You should hear from your manager for further instruction.</item>
+    </string-array>
+
+    <string name="notifications">NOTIFICATIONS</string>
+    <string name="get_started">Get Started</string>
+    <string name="label_heavy_lifting">We do all the heavy lifting so you do not have to.</string>
+    <string name="label_drive_status">Easly know your status to drive</string>
+    <string name="label_contact_managers">Contact Managers with one-click</string>
+    <string name="label_set_goals">View data and set goals</string>
+    <string name="login">Log In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="retrieve_password">Retrieve Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="security_privacy">Security and Privacy</string>
+    <string name="label_rest_assured">We take your privacy seriously. Rest assured!</string>
+    <string name="label_industry_standard">Industry standard SHA-256 security</string>
+    <string name="label_share_data">We do not share your data</string>
+    <string name="label_secure_communication">Secure communications, Both ways</string>
+    <string name="addDevice">Add Device</string>
+    <string name="localization">LOCALIZATION</string>
+    <string name="language">Language</string>
+    <string name="test_push_notifications">Test Push Notifications</string>
+    <string name="weekly_emails">Weekly Emails</string>
+    <string name="remove_device">Remove Device</string>
+    <string name="add_device">Add Device</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="send">SEND</string>
+    <string name="new_message_to_">New Message to:</string>
+    <string name="help">HELP</string>
+    <string name="by_logging_into_the">By logging into the Bridgecrest Medical app, you provide consent to our privacy policy.</string>
+    <string name="reply">REPLY</string>
+    <string name="replying_to">replying to</string>
+    <string name="settings">SETTINGS</string>
+    <string name="my_shift">MY SHIFT</string>
+    <string name="shift_information">SHIFT INFORMATION</string>
+    <string name="shift_name">SHIFT NAME :</string>
+    <string name="data_sync_time">DATA SYNC TIME :</string>
+    <string name="work_days">WORK DAYS :</string>
+    <string name="management_information">MANAGEMENT INFORMATION</string>
+    <string name="call_manager">Call Manager</string>
+    <string name="message_manager">Message Manager</string>
+    <string name="shift_status">SHIFT STATUS</string>
+    <string name="last_sync_n_a">Last Sync: N/A</string>
+    <string name="if_you_believe_there_was">If you believe there was a mistake,please contact your manager directly. For help, head to the help section.</string>
+    <string name="data_from_n_a">Data from: N/A</string>
+    <string name="read_messages">Read Messages</string>
+    <string name="all_in_one_place">All in one place</string>
+    <string name="langauge">Langauge</string>
+    <string name="english">English</string>
+    <string name="rus">Russian</string>
+    <string name="spanish">Spanish</string>
+    <string name="choose_lang">Choose your preffered langauge</string>
+    <string name="messages">MESSAGES</string>
+    <string name="anouncments">ANOUNCMENTS</string>
+    <string name="please_change_your_password_first">Please Change your password first</string>
+    <string name="no_announcments">No company announcements yet.</string>
+    <string name="no_messages">You currently do not have any messages.</string>
+    <string name="reply_body">reply body</string>
+    <string name="message_body">message body</string>
+    <string name="please_add_your_basis_device">Please add your Basis device.</string>
+    <string name="clear_notifications">Clear All</string>
+    <string name="no_notifications">You currently do not have any notifications.</string>
+    <string name="cancel">Cancel</string>
+    <string name="compose_helper">Please, select from the list below</string>
+    <string name="hellopar1">"Hello, we have set you app language to "</string>
+    <string name="hellopart2">" based on your phone's locale, You can always change the app language from the settings tab"</string>
+    <string name="selected">selected</string>
+    <string name="alreadyselected">is already selected</string>
+    <string name="title_activity_choose_device">ChooseDeviceActivity</string>
+
+    <string name="err_email">Email address please</string>
+
+    <string name="menu_item_call">Call</string>
+    <string name="menu_item_text">Text</string>
+    <string name="menu_item_email">Email</string>
+
+    <string name="item1">Home</string>
+    <string name="item2">My Shift</string>
+    <string name="item3">Messages</string>
+    <string name="item4">Settings</string>
+    <string name="item5">Help</string>
+    <string name="item6">Notifications</string>
+
+    <string name="image_button_content_description">Change state of section</string>
+    <string name="app_decription">Your awesome app</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="different_login">or</string>
+    \
+    <string name="plus_sign_out">Change Google+ account</string>
+    <string name="plus_disconnect">Disconnect from Google+</string>
+    <string name="error_invalid_email">Invalid Email</string>
+    <string name="error_invalid_password">The password is too short</string>
+    <string name="error_incorrect_password">Email or password incorrect</string>
+    <string name="error_field_required">Required</string>
+    <string name="create_account">Register</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+
+
+    <string name="original_category">Original Category</string>
+    <string name="original_preference">Original Preference</string>
+    <string name="original_checkbox_preference">Original CheckBox Preference</string>
+    <string name="original_summary">Original Summary</string>
+    <string name="original_summary_with_icon">Original Summary + Icon</string>
+    <string name="original_checkbox_key">original_checkbox_key</string>
+    <string name="original_checkbox_summary_on">Original CheckBox Summary On</string>
+    <string name="original_checkbox_summary_off">Original CheckBox Summary Off</string>
+    <string name="original_switch_preference">Original Switch Preference</string>
+    <string name="original_switch_preference_on">Original Switch Summary On</string>
+    <string name="original_switch_preference_off">Original Switch Summary Off</string>
+
+    <string name="material_category">Material Category</string>
+    <string name="material_preference">Material Preference</string>
+    <string name="material_checkbox_preference">Material CheckBox Preference</string>
+    <string name="material_summary">Material Summary</string>
+    <string name="material_summary_with_icon">Material Summary + Icon</string>
+    <string name="material_checkbox_key">material_checkbox_key</string>
+    <string name="material_checkbox_summary_on">Material CheckBox Summary On</string>
+    <string name="material_checkbox_summary_off">Material CheckBox Summary Off</string>
+    <string name="material_switch_preference">Material Switch Preference</string>
+    <string name="material_switch_preference_on">Material Switch Summary On</string>
+    <string name="material_switch_preference_off">Material Switch Summary Off</string>
+
+
+    <string name="title_activity_how_sleep">Sleep Tracking</string>
+    <string name="title_activity_sleeping_hints">Sleeping Hints</string>
+    <string name="title_activity_sleeping_history">Sleeping History</string>
+    <string name="didnotSync">Your device did not sync data to your Bridgcrest Account</string>
+    <string name="howSlept">Sleep Tracking</string>
+    <string name="nextShift">Next shift</string>
+    <string name="sleepingHints">Sleeping Hints</string>
+    <string name="sleepingHistory">Sleeping History</string>
+    <string name="seconds">seconds</string>
+    <string name="sec">55</string>
+    <string name="hours">01</string>
+    <string name="dots">:</string>
+    <string name="min">10</string>
+
+    <string name="selected_date">The date you picked will be shown here.</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="rotate">Rotate the device to see more data</string>
+
+</resources>

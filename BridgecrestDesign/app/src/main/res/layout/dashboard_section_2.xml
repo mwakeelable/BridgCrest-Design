@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/section_1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/component_white_bg"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/sync_data"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sync_data"
+        android:textColor="@color/coffe_brown" />
+
+    <LinearLayout
+        android:id="@+id/week_days_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/background_gray" />
+
+    <LinearLayout
+        android:id="@+id/status_circles"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="7dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/summary_0"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/status_grey" />
+        </LinearLayout>
+        
+        
+        
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/summary_1"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/status_grey" />
+        </LinearLayout>
+        
+        
+        
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/summary_2"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/status_grey" />
+        </LinearLayout>
+        
+        
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/summary_3"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/status_grey" />
+        </LinearLayout>
+        
+        
+        
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/summary_4"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/status_grey" />
+        </LinearLayout>
+        
+        
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/summary_5"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/status_grey" />
+        </LinearLayout>
+        
+        
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/summary_6"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/status_grey" />
+        </LinearLayout>
+        
+        
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/week_dates_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" />
+
+</LinearLayout>

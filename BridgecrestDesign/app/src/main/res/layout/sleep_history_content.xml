@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_200"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".UI.SleepingHistoryActivity"
+    tools:showIn="@layout/sleep_history_activity">
+
+    <LinearLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/rotate" />
+
+        <TextView
+            android:id="@+id/rotateDevice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:text="@string/rotate"
+            android:textColor="@color/White"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dateLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey_200"
+        android:gravity="center_vertical"
+        android:layout_below="@id/titleLayout">
+
+        <TextView
+            android:id="@+id/dateFromTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:text="From 13/07/2016 To 19/07/2016"
+            android:textSize="20sp"
+            android:textColor="@color/background_blue_darker"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"/>
+    </LinearLayout>
+
+
+    <com.trianglz.bridgecrestdesign.model.SortableTable.SortableSleepTableView
+        android:id="@+id/tableView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateLayout"
+        android:layout_marginTop="3dp"
+        android:background="@color/White"
+        app:tableView_columnCount="4"
+        app:tableView_headerColor="@color/background_blue_darker"
+        app:tableView_headerElevation="8" />
+</RelativeLayout>

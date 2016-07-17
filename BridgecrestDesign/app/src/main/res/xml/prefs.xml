@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/notifications">
+        <SwitchPreference
+            android:key="enable_email"
+            android:summaryOff="Weekly Emails OFF"
+            android:summaryOn="Weekly emails ON"
+            android:title="@string/weekly_emails" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/account">
+        <Preference
+            android:summary="@string/device"
+            android:title="@string/device" />
+        <Preference
+            android:key="remove_device"
+            android:title="@string/removeDevice" />
+        <Preference
+            android:key="change_password_set_btn"
+            android:title="@string/change_password">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.trianglz.bridgecrestdesign"
+                android:targetClass="com.trianglz.bridgecrestdesign.UI.ChangePasswordActivity"
+                />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/localization">
+        <Preference
+            android:key="language"
+            android:summary="@string/english"
+            android:title="@string/langauge" >
+            </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="App Version">
+        <Preference
+            android:summary="V2.3.2"
+            android:title="App Version" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Active Server">
+        <Preference
+            android:key="server"
+            android:summary="Production"
+            android:title="Server" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/percentile_border"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/progressborder"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/percentile_0_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:text="0%"
+        android:textColor="@android:color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/percentile_100_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="100%"
+        android:textColor="@android:color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/percentile_50_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/percentile_100_label"
+        android:layout_toRightOf="@id/percentile_0_label"
+        android:gravity="center"
+        android:text="50%"
+        android:textColor="@android:color/black"
+        android:textSize="10sp" />
+
+    <View
+        android:id="@+id/percentile_bar"
+        android:layout_width="0dp"
+        android:layout_height="10dp"
+        android:layout_below="@+id/percentile_0_label"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/background_blue" />
+
+    <TextView
+        android:id="@+id/percentile_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/percentile_0_label"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@+id/percentile_bar"
+        android:lines="1"
+        android:textColor="@color/background_blue"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/percentile_text_long"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/percentile_bar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="10sp" />
+
+</RelativeLayout>

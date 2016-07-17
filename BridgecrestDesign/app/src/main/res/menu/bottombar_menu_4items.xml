@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/black"
+    app:bbn_badgeColor="#FFFF0000"
+    app:bbn_rippleColor="#33ffffff">
+    <item
+        android:id="@+id/item1"
+        android:color="@color/colorPrimary"
+        android:icon="@drawable/menu_home"
+        android:title="@string/item1" />
+    <item
+        android:id="@+id/item2"
+        android:color="@color/colorPrimary"
+        android:icon="@drawable/menu_my_shift"
+        android:title="@string/item2" />
+    <item
+        android:id="@+id/item3"
+        android:color="@color/colorPrimary"
+        android:icon="@drawable/menu_messages"
+        android:title="@string/item3" />
+    <item
+        android:id="@+id/item4"
+        android:color="@color/colorPrimary"
+        android:icon="@drawable/menu_settings"
+        android:title="@string/item4" />
+    <!--<item-->
+        <!--android:id="@+id/item5"-->
+        <!--android:color="@color/colorPrimary"-->
+        <!--android:icon="@drawable/menu_help"-->
+        <!--android:title="@string/item5" />-->
+</menu>
