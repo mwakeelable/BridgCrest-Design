@@ -16,23 +16,25 @@
         <Preference
             android:key="remove_device"
             android:title="@string/removeDevice" />
+
         <Preference
             android:key="change_password_set_btn"
             android:title="@string/change_password">
             <intent
                 android:action="android.intent.action.MAIN"
-                android:targetPackage="com.trianglz.bridgecrestdesign"
                 android:targetClass="com.trianglz.bridgecrestdesign.UI.ChangePasswordActivity"
-                />
+                android:targetPackage="com.trianglz.bridgecrestdesign" />
         </Preference>
     </PreferenceCategory>
 
     <PreferenceCategory android:title="@string/localization">
-        <Preference
-            android:key="language"
-            android:summary="@string/english"
-            android:title="@string/langauge" >
-            </Preference>
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/listArray_lang"
+            android:entryValues="@array/listValues_lang"
+            android:key="lang"
+            android:summary="Select your language"
+            android:title="Language" />
 
     </PreferenceCategory>
 
@@ -43,10 +45,19 @@
     </PreferenceCategory>
 
     <PreferenceCategory android:title="Active Server">
-        <Preference
+        <!--<Preference-->
+            <!--android:key="server"-->
+            <!--android:summary="Production"-->
+            <!--android:title="Server" />-->
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/listArray_server"
+            android:entryValues="@array/listValues_server"
             android:key="server"
-            android:summary="Production"
-            android:title="Server" />
+            android:summary="Select your sever"
+            android:title="Server"/>
     </PreferenceCategory>
 
 </PreferenceScreen>
+
+    <!--<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">--><!--<EditTextPreference android:title="Your Name"--><!--android:key="username"--><!--android:summary="Please provide your username"></EditTextPreference>--><!--<CheckBoxPreference android:title="Application Updates"--><!--android:defaultValue="false"--><!--android:summary="This option if selected will allow the application to check for latest versions."--><!--android:key="applicationUpdates" />--><!--<ListPreference     android:title="Download Details"--><!--android:summary="Select the kind of data that you would like to download"--><!--android:key="downloadType"--><!--android:defaultValue="1"--><!--android:entries="@array/listArray"--><!--android:entryValues="@array/listValues" />--><!--</PreferenceScreen>-->

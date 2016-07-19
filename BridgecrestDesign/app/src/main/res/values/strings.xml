@@ -15,7 +15,6 @@
     <string name="reset"><u>Forgot your password?</u></string>
     <string name="title_activity_drawer">DrawerActivity</string>
     <string name="title_privacy_policy"><u>Privacy Policy</u></string>
-
     <string-array name="drawer_list">
         <item>pic</item>
         <item>Home</item>
@@ -24,7 +23,6 @@
         <item>Settings</item>
         <item>Help</item>
     </string-array>
-
     <string name="title_activity_settings">SettingsActivity</string>
     <string name="title_activity_shift">ShiftActivity</string>
     <string name="title_activity_help">HelpActivity</string>
@@ -119,7 +117,6 @@
     <string name="announcements_msgs">MESSAGES</string>
     <string name="announcements">ANNOUNCEMENTS</string>
     <string name="new_msgs">NEW MESSAGES</string>
-
     <string-array name="faq_list">
         <item>Who is Bridgecrest? What is their function?</item>
         <item>What does Basis do?</item>
@@ -139,7 +136,6 @@ Our synchronization process works at two levels. Bluetooth from the watch to the
         <item>If the Bridgecrest application displays your status to be Red, it is indicating that you are not fit enough to drive and are too fatigued.<br />
 You should hear from your manager for further instruction.</item>
     </string-array>
-
     <string name="notifications">NOTIFICATIONS</string>
     <string name="get_started">Get Started</string>
     <string name="label_heavy_lifting">We do all the heavy lifting so you do not have to.</string>
@@ -210,27 +206,22 @@ You should hear from your manager for further instruction.</item>
     <string name="selected">selected</string>
     <string name="alreadyselected">is already selected</string>
     <string name="title_activity_choose_device">ChooseDeviceActivity</string>
-
     <string name="err_email">Email address please</string>
-
     <string name="menu_item_call">Call</string>
     <string name="menu_item_text">Text</string>
     <string name="menu_item_email">Email</string>
-
     <string name="item1">Home</string>
     <string name="item2">My Shift</string>
     <string name="item3">Messages</string>
     <string name="item4">Settings</string>
     <string name="item5">Help</string>
     <string name="item6">Notifications</string>
-
     <string name="image_button_content_description">Change state of section</string>
     <string name="app_decription">Your awesome app</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign In</string>
     <string name="different_login">or</string>
-    \
     <string name="plus_sign_out">Change Google+ account</string>
     <string name="plus_disconnect">Disconnect from Google+</string>
     <string name="error_invalid_email">Invalid Email</string>
@@ -239,8 +230,6 @@ You should hear from your manager for further instruction.</item>
     <string name="error_field_required">Required</string>
     <string name="create_account">Register</string>
     <string name="title_activity_notification">NotificationActivity</string>
-
-
     <string name="original_category">Original Category</string>
     <string name="original_preference">Original Preference</string>
     <string name="original_checkbox_preference">Original CheckBox Preference</string>
@@ -252,7 +241,6 @@ You should hear from your manager for further instruction.</item>
     <string name="original_switch_preference">Original Switch Preference</string>
     <string name="original_switch_preference_on">Original Switch Summary On</string>
     <string name="original_switch_preference_off">Original Switch Summary Off</string>
-
     <string name="material_category">Material Category</string>
     <string name="material_preference">Material Preference</string>
     <string name="material_checkbox_preference">Material CheckBox Preference</string>
@@ -264,8 +252,6 @@ You should hear from your manager for further instruction.</item>
     <string name="material_switch_preference">Material Switch Preference</string>
     <string name="material_switch_preference_on">Material Switch Summary On</string>
     <string name="material_switch_preference_off">Material Switch Summary Off</string>
-
-
     <string name="title_activity_how_sleep">Sleep Tracking</string>
     <string name="title_activity_sleeping_hints">Sleeping Hints</string>
     <string name="title_activity_sleeping_history">Sleeping History</string>
@@ -279,9 +265,7 @@ You should hear from your manager for further instruction.</item>
     <string name="hours">01</string>
     <string name="dots">:</string>
     <string name="min">10</string>
-
     <string name="selected_date">The date you picked will be shown here.</string>
     <string name="pick_date">Pick Date</string>
     <string name="rotate">Rotate the device to see more data</string>
-
 </resources>

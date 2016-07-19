@@ -54,4 +54,6 @@ dependencies {
     compile 'de.codecrafters.tableview:tableview:2.1.0'
     compile 'gr.pantrif:easy-android-splash-screen:0.0.1'
     compile 'io.github.eliseomartelli:simple-custom-tabs:1.4.3'
+    compile 'com.yarolegovich:mp:1.0.5'
+    compile 'com.yarolegovich:lovelyinput:1.0.2'
 }

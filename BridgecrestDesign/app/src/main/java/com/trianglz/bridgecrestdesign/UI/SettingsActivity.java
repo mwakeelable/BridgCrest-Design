@@ -13,7 +13,7 @@ import com.trianglz.bridgecrestdesign.R;
 /**
  * Created by wakeel on 10/07/16.
  */
-public class SettingsActivity extends AppCompatActivity{
+public class SettingsActivity extends AppCompatActivity {
     ImageView back;
 
     @Override
@@ -53,4 +53,20 @@ public class SettingsActivity extends AppCompatActivity{
         finish();
         overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
+
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        getFragmentManager().beginTransaction().replace(android.R.id.content, new MyPreferenceFragment()).commit();
+//    }
+//
+//    public static class MyPreferenceFragment extends PreferenceFragment
+//    {
+//        @Override
+//        public void onCreate(final Bundle savedInstanceState)
+//        {
+//            super.onCreate(savedInstanceState);
+//            addPreferencesFromResource(R.xml.prefs);
+//        }
+//    }
 }
